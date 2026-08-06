@@ -30,33 +30,27 @@ export default function Contact() {
     }
     const subject = "Quotation Request";
 
-    const body = `
+    const message = `
 Hello AimPoint Technologies,
 
 I would like to request a quotation.
 
 Name: ${formData.name}
-
 Company: ${formData.company}
-
 Email: ${formData.email}
-
 Phone: ${formData.phone}
 
-Product / Service:
+Service:
 ${formData.service}
 
 Message:
 ${formData.message}
 `;
 
-    const gmailUrl =
-      `https://mail.google.com/mail/?view=cm&fs=1` +
-      `&to=aimpointtechnology26@gmail.com` +
-      `&su=${encodeURIComponent(subject)}` +
-      `&body=${encodeURIComponent(body)}`;
-
-    window.open(gmailUrl, "_blank");
+window.open(
+  `https://wa.me/918369000767?text=${encodeURIComponent(message)}`,
+  "_blank"
+);
     setSubmitted(true);
   };
 

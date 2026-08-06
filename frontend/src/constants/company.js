@@ -1,11 +1,11 @@
 export const COMPANY_INFO = {
   name: "AimPoint Technology",
   tagline: "Reliable Technology, Trusted Relationships",
-  description: "AimPoint Technologies provides reliable IT infrastructure solutions including enterprise servers, networking, computing, surveillance, wireless solutions, and technical support for businesses.",
+  description: "AimPoint Technology provides reliable IT infrastructure solutions including enterprise servers, networking, computing, wireless solutions and technical support for businesses.",
   phone: "+91 8369000767 / +91 8104000567",
   email: "aimpointtechnology26@gmail.com",
   address: "Sneh C-202, 2nd Floor, Pavitradham Phase 2, Tivri Naigaon East",
-  businessHours: "Monday - Friday: 8:00 AM - 6:00 PM"
+  businessHours: "Monday - Saturday: 8:00 AM - 6:00 PM"
 };
 
 export const PRODUCTS_DATA = [
