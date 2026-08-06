@@ -31,7 +31,7 @@ export default function Contact() {
     const subject = "Quotation Request";
 
     const message = `
-Hello AimPoint Technologies,
+Hello AimPoint Technology,
 
 I would like to request a quotation.
 
@@ -142,6 +142,18 @@ window.open(
                         id="name"
                         name="name"
                         value={formData.name}
+                        onChange={handleChange}
+                        placeholder="Xyz "
+                        required
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="name">Company Name *</label>
+                      <input
+                        type="text"
+                        id="company"
+                        name="company"
+                        value={formData.company}
                         onChange={handleChange}
                         placeholder="Xyz "
                         required

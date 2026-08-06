@@ -22,7 +22,7 @@ export default function Hero() {
             <span className="highlight-text">Trusted Relationships</span>
           </h1>
           <p className="hero-description">
-            AimPoint Technologies provides reliable IT infrastructure solutions including enterprise servers, networking, computing, surveillance, wireless solutions, and technical support for businesses.
+            AimPoint Technology provides reliable IT infrastructure solutions including enterprise servers, networking, computing, wireless solutions and technical support for businesses.
           </p>
           <div className="hero-buttons">
             <Link to="/contact" className="btn btn-primary">
@@ -40,7 +40,7 @@ export default function Hero() {
               <span className="rack-led red"></span>
               <span className="rack-led yellow"></span>
               <span className="rack-led green"></span>
-              <span className="rack-title">AIMPOINT TECHNOLOGIES</span>
+              <span className="rack-title">AIMPOINT TECHNOLOGY</span>
             </div>
 
             <div className="rack-units">
