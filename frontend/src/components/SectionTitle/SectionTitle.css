@@ -1,0 +1,30 @@
+.section-title-wrapper {
+  margin-bottom: 40px;
+}
+
+.section-title-wrapper.centered {
+  text-align: center;
+}
+
+.section-subtitle {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+
+.section-heading {
+  font-size: 2.25rem;
+  color: var(--primary);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 1.75rem;
+  }
+}

@@ -1,0 +1,146 @@
+.about-intro-section {
+  padding: 90px 0;
+  background-color: var(--white);
+}
+
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-desc {
+  font-size: 1.05rem;
+  color: var(--gray-text);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about-highlight-box {
+  background-color: var(--light-gray);
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.highlight-item h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.highlight-item p {
+  font-size: 0.9rem;
+  color: var(--gray-text);
+}
+
+.mission-vision-section {
+  padding: 80px 0;
+  background-color: var(--light-gray);
+}
+
+.mv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.mv-card {
+  background-color: var(--white);
+  border-radius: var(--radius);
+  padding: 40px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.mv-icon-box {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(15, 76, 129, 0.08);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.mv-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.mv-card p {
+  font-size: 1.05rem;
+  color: var(--gray-text);
+  line-height: 1.7;
+}
+
+.why-choose-section {
+  padding: 90px 0;
+  background-color: var(--white);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.why-card {
+  background-color: var(--light-gray);
+  border-radius: var(--radius);
+  padding: 30px 24px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: var(--transition);
+}
+
+.why-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--secondary);
+}
+
+.why-card h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.why-card p {
+  font-size: 0.9rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+}
+
+@media (max-width: 968px) {
+  .about-intro-grid,
+  .mv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}
