@@ -52,6 +52,7 @@ window.open(
   "_blank"
 );
     setSubmitted(true);
+    message = null;
   };
 
   return (
