@@ -6,7 +6,7 @@
   background-color: var(--white);
   box-shadow: var(--shadow-sm);
   z-index: 1000;
-  height: 76px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  height: auto;
 }
 
 .navbar-logo {
@@ -28,18 +29,18 @@
 }
 
 .logo-icon-wrapper {
-  width: 55px;
-  height: 55px;
-  background-color: var(--primary);
+  width: 140px;
+  height: 90px;
+  /* background-color: var(--primary); */
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .logo {
-    width: 55px;
-    height: 55px;
-    object-fit: contain;
+    width: 80px;
+    height: 90px;
+    object-fit: fill;
 }
 .logo-highlight {
   color: var(--secondary);
@@ -111,7 +112,7 @@
 
   .navbar-nav {
     position: fixed;
-    top: 76px;
+    top: 100px;
     left: 0;
     width: 100%;
     background-color: var(--white);

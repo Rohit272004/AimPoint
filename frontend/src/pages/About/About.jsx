@@ -9,7 +9,7 @@ export default function About() {
     <div className="about-page">
       <div className="page-header">
         <div className="container">
-          <h1>About AimPoint Technologies</h1>
+          <h1>About AimPoint Technology</h1>
           <p>Building reliable foundations for enterprise computing and secure digital infrastructure.</p>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function About() {
         />
 
         <p className="about-desc">
-          Founded in <strong>2026</strong>, <strong>AimPoint Technologies</strong> is
+          Founded in <strong>2026</strong>, <strong>AimPoint Technology</strong> is
           an emerging IT infrastructure and technology solutions company dedicated to
           helping businesses build secure, reliable, and scalable technology
           environments. We provide enterprise servers, networking solutions,
@@ -115,7 +115,7 @@ export default function About() {
       {/* Why Choose Us */}
       <section className="why-choose-section">
         <div className="container">
-          <SectionTitle subtitle="Core Values" title="Why Choose AimPoint Technologies" centered={true} />
+          <SectionTitle subtitle="Core Values" title="Why Choose AimPoint Technology" centered={true} />
           <div className="why-grid">
             <div className="why-card">
               <CheckCircle size={24} color="#1D74F5" />

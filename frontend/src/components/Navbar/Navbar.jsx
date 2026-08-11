@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X, Server } from 'lucide-react';
 import './Navbar.css';
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="navbar-header">
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img src={logo} alt="" className="logo" />
+          <img src={logo} alt="" className="logo-icon-wrapper" />
           <span className="logo-text">AimPoint <span className="logo-highlight">Technology</span></span>
         </Link>
 
