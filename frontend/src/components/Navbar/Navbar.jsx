@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
           <img src={logo} alt="" className="logo-icon-wrapper" />
-          <span className="logo-text">AimPoint <span className="logo-highlight">Technology</span></span>
+          <span className="logo-text">Aim<span className='point'>Point</span> <span className="logo-highlight">Technology</span></span>
         </Link>
 
         <nav className={`navbar-nav ${isOpen ? 'active' : ''}`}>

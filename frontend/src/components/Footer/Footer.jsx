@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="footer-col footer-brand-col">
           <Link to="/" className="footer-logo">
             <img src={logo} alt="" className="logo" />
-            <span>AimPoint <span className="highlight">Technology</span></span>
+            <span>Aim<span className='point'>Point</span> <span className="">Technology</span></span>
           </Link>
           <p className="footer-desc">
             {COMPANY_INFO.description}

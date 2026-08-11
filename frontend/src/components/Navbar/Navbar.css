@@ -18,7 +18,9 @@
   width: 100%;
   height: auto;
 }
-
+.point {
+  color: red;
+}
 .navbar-logo {
   display: flex;
   align-items: center;
@@ -43,7 +45,7 @@
     object-fit: fill;
 }
 .logo-highlight {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .navbar-nav {

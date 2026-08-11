@@ -47,10 +47,10 @@ Message:
 ${formData.message}
 `;
 
-window.open(
-  `https://wa.me/918369000767?text=${encodeURIComponent(message)}`,
-  "_blank"
-);
+    window.open(
+      `https://wa.me/918369000767?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
     setSubmitted(true);
   };
 
@@ -89,7 +89,7 @@ window.open(
                   </div>
                   <div>
                     <h4>Phone Number</h4>
-                    <p>{COMPANY_INFO.phone}</p>
+                    <p><a href="tel:+918369000767">+91 8369000767</a></p>
                   </div>
                 </li>
                 <li>
@@ -98,7 +98,9 @@ window.open(
                   </div>
                   <div>
                     <h4>Email Address</h4>
-                    <p>{COMPANY_INFO.email}</p>
+                    <p><a href="mailto:aimpointtechnology26@gmail.com">
+                      aimpointtechnology26@gmail.com
+                    </a></p>
                   </div>
                 </li>
                 <li>
@@ -179,7 +181,7 @@ window.open(
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+91 9137681717"
+                        placeholder="+91 8104000567 "
                       />
                     </div>
                     <div className="form-group">
@@ -210,10 +212,16 @@ window.open(
         <div className="container">
           <div className="map-wrapper">
             <div className="map-placeholder-content">
-              <MapPin size={36} color="#0F4C81" />
-              <h3>AimPoint Technology Headquarters</h3>
-              <p>{COMPANY_INFO.address}</p>
-              {/* <span className="map-note">Interactive map placeholder - Silicon Valley, CA</span> */}
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Sneh+C-202%2C+2nd+Floor%2C+Pavitradham+Phase+2%2C+Tivri+Naigaon+East"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MapPin size={36} color="#0F4C81" />
+                <h3>Aim<span className='point'>Point</span> Technology Headquarters</h3>
+                <p>{COMPANY_INFO.address}</p>
+                </a>
+                {/* <span className="map-note">Interactive map placeholder - Silicon Valley, CA</span> */}
             </div>
           </div>
         </div>
