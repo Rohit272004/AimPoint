@@ -52,7 +52,7 @@ export default function Navbar() {
                 rel="noopener noreferrer"
                 className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'} onClick={closeMenu}
               >
-                Connect With US
+                Connect
               </NavLink>
             </li>
           </ul>

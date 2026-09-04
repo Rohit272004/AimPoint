@@ -89,7 +89,9 @@ ${formData.message}
                   </div>
                   <div>
                     <h4>Phone Number</h4>
-                    <p><a href="tel:+918369000767">+91 8369000767</a></p>
+                    <p>
+                      <a href="tel:+918369000767">+91 8369000767</a> / <a href="tel:+918104000567">+91 8104000567</a>
+                    </p>
                   </div>
                 </li>
                 <li>
@@ -99,7 +101,10 @@ ${formData.message}
                   <div>
                     <h4>Email Address</h4>
                     <p><a href="mailto:aimpointtechnology26@gmail.com">
-                      aimpointtechnology26@gmail.com
+                      aimpointtechno@gmail.com
+                    </a></p>
+                    <p><a href="mailto:deepak.sav@aimpointtechnology.in">
+                      deepak.sav@aimpointtechnology.in
                     </a></p>
                   </div>
                 </li>

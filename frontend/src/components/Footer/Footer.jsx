@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Server, Phone, Mail, MapPin } from 'lucide-react';
 import { COMPANY_INFO } from '../../constants/company';
 import './Footer.css';
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -42,12 +42,19 @@ export default function Footer() {
             </li>
             <li>
               <Phone size={18} className="footer-icon" />
-              <span><a href="tel:+918369000767">+91 8369000767</a></span>
+              <span><a href="tel:+918369000767">+91 8369000767 </a></span>
+              <span><a href="tel:+918104000567">+91 8104000567</a></span>
             </li>
             <li>
               <Mail size={18} className="footer-icon" />
-              <span><a href="mailto:aimpointtechnology26@gmail.com">
-                aimpointtechnology26@gmail.com
+              <span><a href="mailto:aimpointtechno@gmail.com">
+                aimpointtechno@gmail.com
+              </a></span>
+            </li>
+            <li>
+              <Mail size={18} className="footer-icon" />
+              <span><a href="mailto:deepak.sav@aimpointtechnology.in">
+                deepak.sav@aimpointtechnology.in
               </a></span>
             </li>
           </ul>
